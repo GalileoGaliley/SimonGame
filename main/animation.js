@@ -28,7 +28,7 @@ function onclickRadio() {
         rezult = options[i].value;
     }
   }
-  document.getElementById('rezult').innerHTML = rezult;
+  
   return (rezult);
 };
 
@@ -113,7 +113,7 @@ function Animation(number, audio, color) {
 	audio.play();
 
 	number.style.backgroundColor = color;
-	setTimeout(retur,500);
+	setTimeout(retur,350);
 };
 //end
 
