@@ -10,6 +10,8 @@ let audio4 = document.getElementById('audio4');
 
 let start = document.getElementById('start');
 
+let overlap = document.getElementById('overlap');
+
 let computerArray = [];
 let userArray = [];
 
@@ -131,7 +133,9 @@ two.addEventListener("click",function(){Animation(two, audio2, "#F6B428")});
 three.addEventListener("click",function(){Animation(three, audio3, "#F12F09")});
 four.addEventListener("click",function(){Animation(four, audio4, "#F16809")});
 
-
+start.addEventListener("click",function () {
+	overlap.style.display = 'none';
+})
 //end
 
 
@@ -165,7 +169,7 @@ let randomClick = function randomClick() {
 
 
 let ActionComputer = function ActionComputer() {
-	randomClick();
+	setTimeout(randomClick,1000);
 
 } ;
 
