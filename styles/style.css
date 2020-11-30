@@ -13,6 +13,11 @@ body{
     position: absolute;
 
 }
+input{
+	width: 40px;
+    height: 40px;
+}
+
 .overlap{
 	height: 100%;
     width: 100%;
@@ -21,10 +26,10 @@ body{
     z-index: 2;
 }
 .windowChoose{
-	background-color: #fff;
-	height: 50%;
-	width: 50%;
-	margin: 0 auto;
+    height: 40vh;
+    width: 40vh;
+    margin: 0 auto;
+    margin-top: 20vh;
 }
 .container{
 	height: 100%;
@@ -33,13 +38,12 @@ body{
 	left: 0px;
 	top: 0px;
 	background-color: #2b2b2b;
-	padding-bottom: 10%;
 }
 .gamebar{
 	margin: 0 auto;
-    width: 410px;
-    margin-top: 5%;
-    height: 410px;
+    width: 50vh;
+    margin-top: 25vh;
+    height: 50vh;
     background-color: #2b2b2b;
 }
 
@@ -47,26 +51,28 @@ body{
 .cell{
 	margin-top: 5%;
 	margin: auto;
-    height: 200px;
-    width: 200px;
+    height: 24vh;
+    width: 24vh;
     background-color: #686868;
     display: inline-block;
 }
 #start{
 	background-color: #F97001;
 	border: none;
-	color: #000;
+	color: #fff;
 	font-weight: 100;
 	font-size: larger;
-	height: 30px;
-	width: 90px;
+	height: auto;
+	width: auto;
 }
 #options{
-    font-family:Arial;
-    height: 30%;
+	font-family: Arial;
+    font-size: 40px;
+    height: 20vh;
     width: max-content;
     margin: auto;
     position: relative;
     top: 25%;
+    text-align: center;
 }
 

@@ -16,11 +16,6 @@ let computerArray = [];
 let userArray = [];
 
 
-//functions
-// function save() {
-// 	localStorage.setItem('valuesArray', JSON.stringify(valuesArray));
-// 	// body...
-// }
 
 
 function onclickRadio() {
